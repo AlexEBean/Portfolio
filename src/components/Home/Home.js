@@ -11,7 +11,7 @@ const Home = () => {
       <section className = "projects">
       <div className = "project">
           <a 
-            href = "https:writersblock.xyz/"
+            href = "https://writersblock.xyz"
             className = "link">
               Writer's Block Website
           </a>
