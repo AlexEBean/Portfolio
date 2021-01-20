@@ -1,10 +1,40 @@
 .home{
     background-color: rgb(233, 231, 231);
     padding-bottom: 60px;
+    min-height: 100vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.intro{
+    height: 300px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 32px;
+    text-shadow: 1px 1px 2px black;
+    background: repeating-radial-gradient(circle at top left, #0D3E5C 10%, #A3CDC4 50%);
+}
+
+.intro > h1{
+    display: flex;
+    font-size: 21px;
+}
+
+.intro-name{
+    display: flex;
+    flex-direction: row;
+}
+
+.name{
+    padding-left: 16px;
+    color: crimson;
+    text-shadow: 1px 1px 2px black;
 }
 
 .projects{
@@ -15,8 +45,8 @@
 }
 
 .project{
-    height: 700px;
-    width: 350px;
+    height: 600px;
+    width: 450px;
     background: #0d5470;
     display: flex;
     justify-content: space-evenly;
@@ -39,4 +69,15 @@
     background-color: #04c2c9;
     border: 2px solid #04c2c9;
     transition: all .35s ease-in-out;
+}
+
+img{
+    height: 200px;
+    width: 70%;
+    border-radius: 10%;
+}
+
+p {
+    color: whitesmoke;
+    width: 80%;
 }

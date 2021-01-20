@@ -1,0 +1,16 @@
+.list{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    background: repeating-radial-gradient(circle at top left, #0D3E5C 10%, #A3CDC4 50%);
+}
+
+.list-item{
+    list-style: disc;
+    padding-top: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    color: whitesmoke;
+}
