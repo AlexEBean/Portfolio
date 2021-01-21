@@ -22,13 +22,13 @@ const Home = () => {
           </p>
           <a 
             href = "https://writersblock.xyz"
-            className = "link">
+            className = "home-link">
               Writer's Block Website
           </a>
           <br></br>
           <a 
             href = "https://github.com/Writer-Block/writers-block" 
-            className = "link">
+            className = "home-link">
               Writer's Block Github
           </a>
         </div>
@@ -38,13 +38,13 @@ const Home = () => {
           </p>
           <a 
             href = "https://libraris.xyz" 
-            className = "link">
+            className = "home-link">
               Library Simulation Website
           </a>
           <br></br>
           <a 
             href = "https://github.com/AlexEBean/library-personal-project" 
-            className = "link">
+            className = "home-link">
               Library Simulation Github
           </a>
         </div>

@@ -1,16 +1,31 @@
-.list{
-    height: 100vh;
+.about{
+    min-height: 100vh;
     width: 100vw;
+    background: repeating-radial-gradient(circle at top left, #0D3E5C 10%, #A3CDC4 50%);
+    display: flex;
+    justify-content: center;
+}
+
+.list {
+    height: 30%;
+    width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: left;
-    background: repeating-radial-gradient(circle at top left, #0D3E5C 10%, #A3CDC4 50%);
+    color: #ED5057;
+    font-weight: 500;
+    font-size: 48px;
+    text-shadow: 1px 1px 2px black;
 }
 
 .list-item{
     list-style: disc;
     padding-top: 10px;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 26px;
+    text-shadow: 1px 1px 2px black;
     color: whitesmoke;
+    list-style-type: none;
+    display: flex;
+    align-items: flex-start;
+    padding: 13px;
 }

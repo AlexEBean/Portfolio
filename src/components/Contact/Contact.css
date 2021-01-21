@@ -1,0 +1,7 @@
+.contact{
+    min-height: 100vh;
+    width: 100vw;
+    background: repeating-radial-gradient(circle at top left, #0D3E5C 10%, #A3CDC4 50%);
+    display: flex;
+    justify-content: center;
+}
