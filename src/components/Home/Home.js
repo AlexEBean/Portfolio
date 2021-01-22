@@ -1,7 +1,10 @@
 import React from "react"
 import "./Home.css"
-import l1 from "./images/libraryHome.png"
-import wb1 from "./images/wbLogin.png"
+import l1 from "../../images/libraryHome.png"
+import wb1 from "../../images/wbLogin.png"
+import linkedIn from "../../images/linkedin-logo.png"
+import gitHub from "../../images/github-logo.png"
+import resume from "../../images/resume-logo.png"
 
 const Home = () => {
 
@@ -14,6 +17,23 @@ const Home = () => {
                 <h1>.</h1>
             </div>
           <h1>I'm a full-stack web developer experienced in React.</h1>
+          <div className='logo-container'>
+                <a href="https://github.com/AlexEBean">
+                    <img className='logo-links'
+                        src={gitHub} 
+                        alt='Github Logo'/>
+                </a>
+                <a href="https://www.linkedin.com/in/alex-elijah-bean/">
+                    <img className='logo-links'
+                        src={linkedIn} 
+                        alt='LinkedIn Logo'/>
+                </a>
+                <a href="https://docs.google.com/document/d/1IuceaYcbLWkkJ9uwJFR5zJ6Zb10v2eWzTOyD-dMRuR8">
+                    <img className='logo-links'
+                        src={resume} 
+                        alt='Resume Logo'/>
+                </a>
+            </div>
       </section>
       <section className = "projects">
       <div className = "project">

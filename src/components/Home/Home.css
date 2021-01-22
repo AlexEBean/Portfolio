@@ -9,7 +9,7 @@
 }
 
 .intro{
-    height: 300px;
+    height: 45vh;
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -35,6 +35,28 @@
     padding-left: 16px;
     color: crimson;
     text-shadow: 1px 1px 2px black;
+}
+
+.logo-container {
+    height: 5%;
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 10px;
+}
+
+.logo-links {
+    height: 40px;
+    width: 40px;
+    padding: 4px;
+    background-color: transparent;
+}
+
+.logo-links:hover{
+    background-color: #04c2c9;
+    cursor: pointer;
+    transition: all .35s ease-in-out;
 }
 
 .projects{
