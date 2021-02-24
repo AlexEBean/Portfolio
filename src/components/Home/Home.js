@@ -41,7 +41,7 @@ const Home = () => {
           <p>A social media website website that allows users to add part of a story as a post.  Other users can provide feedback and the user can apply that feedback to their post.
           </p>
           <a 
-            href = "https://writersblock.xyz"
+            href = "https://writers-block.xyz"
             className = "home-link">
               Writer's Block Website
           </a>
