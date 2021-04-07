@@ -36,22 +36,6 @@ const Home = () => {
             </div>
       </section>
       <section className = "projects">
-      <div className = "project">
-        <img src = {wb1} alt = "Group Project"/>
-          <p>A social media website website that allows users to add part of a story as a post.  Other users can provide feedback and the user can apply that feedback to their post.
-          </p>
-          <a 
-            href = "https://writers-block.xyz"
-            className = "home-link">
-              Writer's Block Website
-          </a>
-          <br></br>
-          <a 
-            href = "https://github.com/Writer-Block/writers-block" 
-            className = "home-link">
-              Writer's Block Github
-          </a>
-        </div>
         <div className = "project">
           <img src = {l1} alt = "Personal Project"/>
           <p>A public library website simulation that includes different views between an administrator and an ordinary user.
@@ -67,6 +51,22 @@ const Home = () => {
             className = "home-link">
               Library Simulation Github
           </a>
+        </div>
+        <div className = "project">
+          <img src = {wb1} alt = "Group Project"/>
+            <p>A social media website website that allows users to add part of a story as a post.  Other users can provide feedback and the user can apply that feedback to their post.
+            </p>
+            <a 
+              href = "https://writers-block.xyz"
+              className = "home-link">
+                Writer's Block Website
+            </a>
+            <br></br>
+            <a 
+              href = "https://github.com/Writer-Block/writers-block" 
+              className = "home-link">
+                Writer's Block Github
+            </a>
         </div>
       </section>
     </div>
