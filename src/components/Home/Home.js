@@ -43,29 +43,29 @@ const Home = () => {
           <a 
             href = "https://libraris.xyz" 
             className = "home-link">
-              Library Simulation Website
+              Live Website
           </a>
           <br></br>
           <a 
             href = "https://github.com/AlexEBean/library-personal-project" 
             className = "home-link">
-              Library Simulation Github
+              Github
           </a>
         </div>
         <div className = "project">
           <img src = {wb1} alt = "Group Project"/>
-            <p>A social media website website that allows users to add part of a story as a post.  Other users can provide feedback and the user can apply that feedback to their post.
+            <p>A social media website website that allows users to add a story as a post.  Other users can provide feedback and the user can apply that feedback to their post. This was developed in a Scrum setting.
             </p>
             <a 
               href = "https://writers-block.xyz"
               className = "home-link">
-                Writer's Block Website
+                Live Website
             </a>
             <br></br>
             <a 
               href = "https://github.com/Writer-Block/writers-block" 
               className = "home-link">
-                Writer's Block Github
+                Github
             </a>
         </div>
       </section>
