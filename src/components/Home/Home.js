@@ -36,25 +36,10 @@ const Home = () => {
             </div>
       </section>
       <section className = "projects">
-        <div className = "project">
-          <img src = {l1} alt = "Personal Project"/>
-          <p>A public library website simulation that includes different views between an administrator and an ordinary user.
-          </p>
-          <a 
-            href = "https://libraris.xyz" 
-            className = "home-link">
-              Live Website
-          </a>
-          <br></br>
-          <a 
-            href = "https://github.com/AlexEBean/library-personal-project" 
-            className = "home-link">
-              Github
-          </a>
-        </div>
-        <div className = "project">
+      <div className = "project">
           <img src = {wb1} alt = "Group Project"/>
-            <p>A social media website website that allows users to add a story as a post.  Other users can provide feedback and the user can apply that feedback to their post. This was developed in a Scrum setting.
+            <p>
+              A social media website website that allows users to add a story as a post.  Other users can provide feedback and the user can apply that feedback to their post. This was developed in a Scrum setting.
             </p>
             <a 
               href = "https://writers-block.xyz"
@@ -67,6 +52,23 @@ const Home = () => {
               className = "home-link">
                 Github
             </a>
+        </div>
+        <div className = "project">
+          <img src = {l1} alt = "Personal Project"/>
+          <p>
+            A public library website simulation that includes different views between an administrator and an ordinary user.
+          </p>
+          <a 
+            href = "https://libraris.xyz" 
+            className = "home-link">
+              Live Website
+          </a>
+          <br></br>
+          <a 
+            href = "https://github.com/AlexEBean/library-personal-project" 
+            className = "home-link">
+              Github
+          </a>
         </div>
       </section>
     </div>
